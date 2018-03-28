@@ -1,4 +1,6 @@
 mv "$rootfs/etc/libretro/system/NstDatabase.xml" "$rootfs/etc/libretro"
+mv "$rootfs/etc/libretro/system/psp" "$rootfs/etc/libretro"
 rm -rf "$rootfs/etc/libretro/system/"*
 mv "$rootfs/etc/libretro/NstDatabase.xml" "$rootfs/etc/libretro/system"
+mv "$rootfs/etc/libretro/psp" "$rootfs/etc/libretro/system" 
 return 1
