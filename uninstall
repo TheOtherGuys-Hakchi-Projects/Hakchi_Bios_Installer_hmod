@@ -1,0 +1,4 @@
+mv "$rootfs/etc/libretro/system/NstDatabase.xml" "$rootfs/etc/libretro"
+rm -rf "$rootfs/etc/libretro/system/"*
+mv "$rootfs/etc/libretro/NstDatabase.xml" "$rootfs/etc/libretro/system"
+return 1
